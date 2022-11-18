@@ -8,5 +8,6 @@ public class CalculadoraServerPublisher {
   {
     Endpoint.publish("http://127.0.0.1:9876/calc",
     new CalculadoraServerImpl());
+    System.out.println("*********** NO AR **************");
   }
 }
